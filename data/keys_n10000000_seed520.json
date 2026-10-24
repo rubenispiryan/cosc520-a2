@@ -1,0 +1,9 @@
+{
+  "n": 10000000,
+  "seed": 520,
+  "python": "3.14.8",
+  "generation": "random.Random(seed).shuffle(array('I', range(0, 2*n, 2)))",
+  "queries": "seeded 50/50 mix of present even keys and absent odd keys in [0, 2n)",
+  "file": "keys_n10000000_seed520.txt.gz",
+  "sha256": "020afcdd30d7b74036d7f538eb6d13ae3abbc602a2a98523460447d72670e0b7"
+}

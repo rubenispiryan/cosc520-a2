@@ -1,0 +1,24 @@
+{
+  "algorithms": [
+    "avl",
+    "splay",
+    "treap"
+  ],
+  "sizes": [
+    1000,
+    10000,
+    100000,
+    1000000,
+    10000000
+  ],
+  "seed": 520,
+  "treap_priority_seed": 521,
+  "query_seed": "seed + n",
+  "queries_per_trial": 20000,
+  "positive_queries_per_trial": 10000,
+  "repetitions": 3,
+  "method_order": "rotated across trials to reduce run-order bias",
+  "dataset": "n unique even integers shuffled by random.Random(seed); odd integers absent",
+  "lookup_timing": "dataset generation and construction excluded; each trial uses a fresh tree",
+  "python": "3.14.8"
+}
